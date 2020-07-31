@@ -1,0 +1,98 @@
+a {
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(128, 128, 128);
+    filter: invert(50%) sepia(73%) saturate(0%) hue-rotate(227deg) brightness(86%) contrast(72%);
+}
+
+a:hover {
+    color: rgb(96, 96, 96);
+    filter: invert(38%) sepia(1%) saturate(15%) hue-rotate(314deg) brightness(92%) contrast(84%);
+}
+
+#site-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+}
+
+#site-header > .header-inner-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#site-header > .header-inner-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#site-header > .header-inner-left > .header-social-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#site-header > .header-inner-right > .header-menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo > a > img {
+    width: 6rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(236deg) brightness(0%) contrast(0%);
+}
+
+.primary-menu, .social-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: auto;
+}
+
+.primary-menu > li {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+}
+
+.primary-menu > li > a {
+    text-decoration: none;
+}
+
+.social-menu > li {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+}
+
+.menu-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn-wrapper > .menu-btn {
+    background: none;
+    border: none;
+}
